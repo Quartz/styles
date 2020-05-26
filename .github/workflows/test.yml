@@ -11,8 +11,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.ACCESS_TOKEN }}
 
       - name: Switch to Xcode 11
         run: ls /Applications; sudo xcode-select -s /Applications/Xcode_11.5.app
