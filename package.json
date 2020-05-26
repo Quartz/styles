@@ -1,0 +1,11 @@
+{
+  "name": "styles",
+  "description": "Quartz style dictionary",
+  "version": "0.0.1",
+  "devDependencies": {
+    "style-dictionary": "^2.10.0"
+  },
+  "scripts": {
+    "build": "style-dictionary build"
+  }
+}

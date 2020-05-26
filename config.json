@@ -1,0 +1,43 @@
+{
+  "source": [
+    "Styles/**/*.json"
+  ],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "Web/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "Android/",
+      "files": [
+        {
+          "destination": "font_dimens.xml",
+          "format": "android/fontDimens"
+        },
+        {
+          "destination": "colors.xml",
+          "format": "android/colors"
+        }
+      ]
+    },
+    "ios-swift": {
+      "transformGroup": "ios-swift",
+      "buildPath": "iOS/QuartzStyles/",
+      "files": [
+        {
+          "destination": "QuartzStyles.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "QuartzStyles",
+          "filter": {}
+        }
+      ]
+    }
+  }
+}
