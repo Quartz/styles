@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "QuartzStyles", targets: ["QuartzStyles"])
     ],
     targets: [
-        .target(name: "QuartzStyles", path: "iOS/QuartzStyles"),
-        .testTarget(name: "Tests", dependencies: ["QuartzStyles"], path: "iOS/Tests")
+        .target(name: "QuartzStyles", path: "Platforms/iOS/QuartzStyles"),
+        .testTarget(name: "Tests", dependencies: ["QuartzStyles"], path: "Platforms/iOS/Tests")
     ]
 )

@@ -5,7 +5,7 @@
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "Web/",
+      "buildPath": "Platforms/Web/",
       "files": [
         {
           "destination": "_variables.scss",
@@ -15,7 +15,7 @@
     },
     "android": {
       "transformGroup": "android",
-      "buildPath": "Android/",
+      "buildPath": "Platforms/Android/",
       "files": [
         {
           "destination": "font_dimens.xml",
@@ -29,7 +29,7 @@
     },
     "ios-swift": {
       "transformGroup": "ios-swift",
-      "buildPath": "iOS/QuartzStyles/",
+      "buildPath": "Platforms/iOS/QuartzStyles/",
       "files": [
         {
           "destination": "QuartzStyles.swift",
