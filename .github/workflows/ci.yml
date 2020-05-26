@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build Styles
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+            ref: ${{ github.head_ref }}
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - run: npm i
+
+      - name: Build
+        run: npm run build
+
+      - name: Add & commit build files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Add built client styles
+          commit_options: '--no-verify --signoff'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  test-ios:
+    name: Test iOS Output
+    needs: build
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Switch to Xcode 11
+        run: ls /Applications; sudo xcode-select -s /Applications/Xcode_11.5.app
+
+      - run: swift package generate-xcodeproj
+
+      - name: Cache build
+        uses: actions/cache@v1
+        with:
+          path: ./.build
+          key: ${{ runner.os }}-${{ hashFiles('./Platforms/iOS/**/*.swift') }}
+
+      - run: xcodebuild -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=13.5' -scheme QuartzStyles-Package test  | xcpretty --test --color
