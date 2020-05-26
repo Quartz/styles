@@ -1,4 +1,4 @@
-name: Test
+name: CI
 
 on:
   pull_request:
@@ -6,10 +6,32 @@ on:
       - master
 
 jobs:
-  iOS:
+  build:
+    name: Build Styles
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - run: npm i
+
+      - name: Build
+        run: npm run build
+
+      - name: Add & commit build files
+        uses: EndBug/add-and-commit@v4.2.0
+        with:
+          add: Platforms/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  test-ios:
+    name: Test iOS Output
     needs: build
     runs-on: macOS-latest
-
     steps:
       - uses: actions/checkout@v2
 
