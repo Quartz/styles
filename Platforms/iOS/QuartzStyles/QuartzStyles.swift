@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Wed, 27 May 2020 19:59:52 GMT
+// Generated on Wed, 27 May 2020 20:19:41 GMT
 //
 
 import UIKit
@@ -23,7 +23,7 @@ public enum QuartzStyles {
     public static let colorRed = UIColor(red: 0.761, green: 0.322, blue: 0.314, alpha:1)
     public static let colorSilver = UIColor(red: 0.745, green: 0.745, blue: 0.745, alpha:1)
     public static let colorWhite = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha:1)
-    public static let fontLineHeightMaisonExtraBold = "1.05"
+    public static let fontLineHeightMaisonExtraBold = CGFloat(1.05)
     public static let sizeFontCaption = CGFloat(10.00)
     public static let sizeFontCaptionMobile = CGFloat(8.00)
     public static let sizeFontExtraSmall = CGFloat(11.00)

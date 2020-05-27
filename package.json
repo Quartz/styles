@@ -6,6 +6,6 @@
     "style-dictionary": "^2.10.0"
   },
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "node build.js"
   }
 }
