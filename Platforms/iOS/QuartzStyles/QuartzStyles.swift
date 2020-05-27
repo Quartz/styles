@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Tue, 26 May 2020 19:44:33 GMT
+// Generated on Wed, 27 May 2020 19:59:52 GMT
 //
 
 import UIKit
@@ -23,4 +23,30 @@ public enum QuartzStyles {
     public static let colorRed = UIColor(red: 0.761, green: 0.322, blue: 0.314, alpha:1)
     public static let colorSilver = UIColor(red: 0.745, green: 0.745, blue: 0.745, alpha:1)
     public static let colorWhite = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha:1)
+    public static let fontLineHeightMaisonExtraBold = "1.05"
+    public static let sizeFontCaption = CGFloat(10.00)
+    public static let sizeFontCaptionMobile = CGFloat(8.00)
+    public static let sizeFontExtraSmall = CGFloat(11.00)
+    public static let sizeFontMaisonExtraBold1 = CGFloat(13.00)
+    public static let sizeFontMaisonExtraBold1Mobile = CGFloat(11.00)
+    public static let sizeFontMaisonExtraBold2 = CGFloat(16.00)
+    public static let sizeFontMaisonExtraBold2Mobile = CGFloat(14.00)
+    public static let sizeFontMaisonExtraBold3 = CGFloat(20.00)
+    public static let sizeFontMaisonExtraBold3Mobile = CGFloat(14.00)
+    public static let sizeFontMaisonExtraBold4 = CGFloat(20.00)
+    public static let sizeFontMaisonExtraBold4Mobile = CGFloat(18.00)
+    public static let sizeFontMaisonExtraBold5 = CGFloat(30.00)
+    public static let sizeFontMaisonExtraBold5Mobile = CGFloat(18.00)
+    public static let sizeFontMaisonExtraBold5Tablet = CGFloat(20.00)
+    public static let sizeFontMaisonExtraBold6 = CGFloat(40.00)
+    public static let sizeFontMaisonExtraBold6Mobile = CGFloat(22.00)
+    public static let sizeFontMaisonExtraBold7 = CGFloat(45.00)
+    public static let sizeFontMaisonExtraBold7Mobile = CGFloat(18.00)
+    public static let sizeFontMaisonExtraBold7Tablet = CGFloat(30.00)
+    public static let sizeFontMaisonExtraBold8 = CGFloat(45.00)
+    public static let sizeFontMaisonExtraBold8Mobile = CGFloat(26.00)
+    public static let sizeFontMaisonExtraBold9 = CGFloat(70.00)
+    public static let sizeFontMaisonExtraBold9Mobile = CGFloat(26.00)
+    public static let sizeFontMaisonExtraBold9Tablet = CGFloat(50.00)
+    public static let sizeFontSmall = CGFloat(13.00)
 }

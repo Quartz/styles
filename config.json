@@ -4,13 +4,20 @@
   ],
   "platforms": {
     "scss": {
-      "transformGroup": "scss",
       "buildPath": "Platforms/Web/",
       "files": [
         {
           "destination": "_variables.scss",
           "format": "scss/variables"
         }
+      ],
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "time/seconds",
+        "content/icon",
+        "color/css",
+        "size/remToPx"
       ]
     },
     "android": {

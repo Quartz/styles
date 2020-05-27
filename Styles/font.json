@@ -1,0 +1,88 @@
+{
+  "font": {
+    "line-height": {
+      "maison-extra-bold": {
+        "value": "1.05"
+      }
+    }
+  },
+  "size": {
+    "font": {
+      "small": {
+        "value": "0.8125"
+      },
+      "extra-small": {
+        "value": "0.6875"
+      },
+      "caption": {
+        "value": "0.625"
+      },
+      "caption-mobile": {
+        "value": "0.5"
+      },
+      "maison-extra-bold-1": {
+        "value": "{size.font.small.value}"
+      },
+      "maison-extra-bold-1-mobile": {
+        "value": "{size.font.extra-small.value}"
+      },
+      "maison-extra-bold-2": {
+        "value": "1"
+      },
+      "maison-extra-bold-2-mobile": {
+        "value": "0.875"
+      },
+      "maison-extra-bold-3": {
+        "value": "1.25"
+      },
+      "maison-extra-bold-3-mobile": {
+        "value": "{size.font.maison-extra-bold-2-mobile.value}"
+      },
+      "maison-extra-bold-4": {
+        "value": "{size.font.maison-extra-bold-3.value}"
+      },
+      "maison-extra-bold-4-mobile": {
+        "value": "1.125"
+      },
+      "maison-extra-bold-5": {
+        "value": "1.875"
+      },
+      "maison-extra-bold-5-tablet": {
+        "value": "{size.font.maison-extra-bold-4.value}"
+      },
+      "maison-extra-bold-5-mobile": {
+        "value": "{size.font.maison-extra-bold-4-mobile.value}"
+      },
+      "maison-extra-bold-6": {
+        "value": "2.5"
+      },
+      "maison-extra-bold-6-mobile": {
+        "value": "1.375"
+      },
+      "maison-extra-bold-7": {
+        "value": "2.8125"
+      },
+      "maison-extra-bold-7-tablet": {
+        "value": "1.875"
+      },
+      "maison-extra-bold-7-mobile": {
+        "value": "{size.font.maison-extra-bold-5-mobile.value}"
+      },
+      "maison-extra-bold-8": {
+        "value": "{size.font.maison-extra-bold-7.value}"
+      },
+      "maison-extra-bold-8-mobile": {
+        "value": "1.625"
+      },
+      "maison-extra-bold-9": {
+        "value": "4.375"
+      },
+      "maison-extra-bold-9-tablet": {
+        "value": "3.125"
+      },
+      "maison-extra-bold-9-mobile": {
+        "value": "{size.font.maison-extra-bold-8-mobile.value}"
+      }
+    }
+  }
+}
