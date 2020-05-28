@@ -33,7 +33,7 @@ jobs:
 
       - uses: Sibz/github-status-action@v1
         with:
-          authToken: ${{secrets.GITHUB_TOKEN}}
+          authToken: ${{ secrets.GITHUB_TOKEN }}
           sha: ${{ steps.git_commit.outputs.sha }}
           state: success
           context: Built client styles
@@ -57,3 +57,10 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('./Platforms/iOS/**/*.swift') }}
 
       - run: xcodebuild -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=13.5' -scheme QuartzStyles-Package test  | xcpretty --test --color
+
+      - uses: Sibz/github-status-action@v1
+        with:
+          authToken: ${{ secrets.GITHUB_TOKEN }}
+          sha: ${{ steps.git_commit.outputs.sha }}
+          state: success
+          context: Test iOS output
