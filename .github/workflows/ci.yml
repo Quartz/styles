@@ -29,10 +29,7 @@ jobs:
         with:
           commit_message: Add built client styles
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - run: git push
 
       - uses: actions/checkout@v2
         with:
