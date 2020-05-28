@@ -31,13 +31,12 @@ jobs:
 
       - run: git push
 
-      - uses: actions/checkout@v2
+      - uses: Sibz/github-status-action@v1
         with:
-          ref: ${{ steps.git_commit.outputs.sha }}
-      - uses: ouzi-dev/commit-status-updater@v1.0.6
-        with:
-          status: success
-          name: Built client styles
+          authToken: ${{secrets.GITHUB_TOKEN}}
+          sha: ${{ steps.git_commit.outputs.sha }}
+          state: success
+          context: Built client styles
 
   test-ios:
     name: Test iOS Output
