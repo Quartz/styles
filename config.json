@@ -4,13 +4,20 @@
   ],
   "platforms": {
     "scss": {
-      "transformGroup": "scss",
       "buildPath": "Platforms/Web/",
       "files": [
         {
           "destination": "_variables.scss",
           "format": "scss/variables"
         }
+      ],
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "time/seconds",
+        "content/icon",
+        "color/css",
+        "size/remToPx"
       ]
     },
     "android": {
@@ -28,7 +35,6 @@
       ]
     },
     "ios-swift": {
-      "transformGroup": "ios-swift",
       "buildPath": "Platforms/iOS/QuartzStyles/",
       "files": [
         {
@@ -37,6 +43,16 @@
           "className": "QuartzStyles",
           "filter": {}
         }
+      ],
+      "transforms": [
+        "attribute/cti",
+        "name/cti/camel",
+        "color/UIColorSwift",
+        "content/swift/literal",
+        "asset/swift/literal",
+        "size/swift/remToCGFloat",
+        "font/swift/literal",
+        "font/swift/lineHeightToCGFLoat"
       ]
     }
   }

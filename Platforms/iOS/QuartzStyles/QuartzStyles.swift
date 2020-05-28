@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Tue, 26 May 2020 19:44:33 GMT
+// Generated on Thu, 28 May 2020 13:20:22 GMT
 //
 
 import UIKit
@@ -23,4 +23,35 @@ public enum QuartzStyles {
     public static let colorRed = UIColor(red: 0.761, green: 0.322, blue: 0.314, alpha:1)
     public static let colorSilver = UIColor(red: 0.745, green: 0.745, blue: 0.745, alpha:1)
     public static let colorWhite = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha:1)
+    public static let fontLineHeightMaisonExtraBold = CGFloat(1.05)
+    public static let fontLineHeightMaisonMedium = CGFloat(1.30)
+    public static let fontLineHeightPtSerif = CGFloat(1.50)
+    public static let sizeFont01 = CGFloat(13.00)
+    public static let sizeFont01Mobile = CGFloat(11.00)
+    public static let sizeFont02 = CGFloat(16.00)
+    public static let sizeFont02Mobile = CGFloat(14.00)
+    public static let sizeFont03 = CGFloat(20.00)
+    public static let sizeFont03Mobile = CGFloat(14.00)
+    public static let sizeFont04 = CGFloat(20.00)
+    public static let sizeFont04Mobile = CGFloat(18.00)
+    public static let sizeFont05 = CGFloat(30.00)
+    public static let sizeFont05Mobile = CGFloat(18.00)
+    public static let sizeFont05Tablet = CGFloat(20.00)
+    public static let sizeFont06 = CGFloat(40.00)
+    public static let sizeFont06Mobile = CGFloat(22.00)
+    public static let sizeFont07 = CGFloat(45.00)
+    public static let sizeFont07Mobile = CGFloat(18.00)
+    public static let sizeFont07Tablet = CGFloat(30.00)
+    public static let sizeFont08 = CGFloat(45.00)
+    public static let sizeFont08Mobile = CGFloat(26.00)
+    public static let sizeFont09 = CGFloat(70.00)
+    public static let sizeFont09Mobile = CGFloat(26.00)
+    public static let sizeFont09Tablet = CGFloat(50.00)
+    public static let sizeFont10 = CGFloat(95.00)
+    public static let sizeFont10Mobile = CGFloat(40.00)
+    public static let sizeFont10Tablet = CGFloat(70.00)
+    public static let sizeFont11 = CGFloat(180.00)
+    public static let sizeFont11Mobile = CGFloat(50.00)
+    public static let sizeFont11Tablet = CGFloat(90.00)
+    public static let sizeFont11TabletLandscape = CGFloat(140.00)
 }

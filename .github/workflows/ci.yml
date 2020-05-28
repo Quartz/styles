@@ -9,10 +9,12 @@ jobs:
   build:
     name: Build Styles
     runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.git_commit.outputs.sha }}
     steps:
       - uses: actions/checkout@v2
         with:
-            ref: ${{ github.head_ref }}
+          ref: ${{ github.head_ref }}
 
       - uses: actions/setup-node@v1
         with:
@@ -23,13 +25,20 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Add & commit build files
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit build files
+        id: git_commit
+        uses: zwaldowski/git-commit-action@v1
         with:
           commit_message: Add built client styles
-          commit_options: '--no-verify --signoff'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: git push
+
+      - uses: Sibz/github-status-action@v1
+        with:
+          authToken: ${{ secrets.GITHUB_TOKEN }}
+          sha: ${{ steps.git_commit.outputs.sha }}
+          state: success
+          context: Built client styles
 
   test-ios:
     name: Test iOS Output
@@ -47,6 +56,13 @@ jobs:
         uses: actions/cache@v1
         with:
           path: ./.build
-          key: ${{ runner.os }}-${{ hashFiles('./Platforms/iOS/**/*.swift') }}
+          key: ${{ runner.os }}-${{ hashFiles('./Package.swift') }}
 
       - run: xcodebuild -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=13.5' -scheme QuartzStyles-Package test  | xcpretty --test --color
+
+      - uses: Sibz/github-status-action@v1
+        with:
+          authToken: ${{ secrets.GITHUB_TOKEN }}
+          sha: ${{ needs.build.outputs.sha }}
+          state: success
+          context: Test iOS output
