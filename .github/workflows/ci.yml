@@ -9,6 +9,8 @@ jobs:
   build:
     name: Build Styles
     runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.git_commit.outputs.sha }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -54,13 +56,13 @@ jobs:
         uses: actions/cache@v1
         with:
           path: ./.build
-          key: ${{ runner.os }}-${{ hashFiles('./Platforms/iOS/**/*.swift') }}
+          key: ${{ runner.os }}-${{ hashFiles('./Package.swift') }}
 
       - run: xcodebuild -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=13.5' -scheme QuartzStyles-Package test  | xcpretty --test --color
 
       - uses: Sibz/github-status-action@v1
         with:
           authToken: ${{ secrets.GITHUB_TOKEN }}
-          sha: ${{ steps.git_commit.outputs.sha }}
+          sha: ${{ needs.build.outputs.sha }}
           state: success
           context: Test iOS output
