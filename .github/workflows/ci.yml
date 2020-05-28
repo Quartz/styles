@@ -23,13 +23,24 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Add & commit build files
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit build files
+        id: git_commit
+        uses: zwaldowski/git-commit-action@v1
         with:
           commit_message: Add built client styles
-          commit_options: '--no-verify --signoff'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ steps.git_commit.outputs.sha }}
+      - uses: ouzi-dev/commit-status-updater@v1.0.6
+        with:
+          status: success
+          name: Built client styles
 
   test-ios:
     name: Test iOS Output
