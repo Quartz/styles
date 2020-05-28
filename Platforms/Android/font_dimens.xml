@@ -2,33 +2,36 @@
 
 <!--
   Do not edit directly
-  Generated on Wed, 27 May 2020 20:19:41 GMT
+  Generated on Thu, 28 May 2020 12:42:04 GMT
 -->
 <resources>
-  <dimen name="size_font_small">13.00sp</dimen>
-  <dimen name="size_font_extra_small">11.00sp</dimen>
-  <dimen name="size_font_caption">10.00sp</dimen>
-  <dimen name="size_font_caption_mobile">8.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_1">13.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_1_mobile">11.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_2">16.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_2_mobile">14.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_3">20.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_3_mobile">14.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_4">20.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_4_mobile">18.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_5">30.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_5_tablet">20.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_5_mobile">18.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_6">40.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_6_mobile">22.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_7">45.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_7_tablet">30.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_7_mobile">18.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_8">45.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_8_mobile">26.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_9">70.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_9_tablet">50.00sp</dimen>
-  <dimen name="size_font_maison_extra_bold_9_mobile">26.00sp</dimen>
+  <dimen name="size_font_10">95.00sp</dimen>
+  <dimen name="size_font_11">180.00sp</dimen>
+  <dimen name="size_font_01">13.00sp</dimen>
+  <dimen name="size_font_01_mobile">11.00sp</dimen>
+  <dimen name="size_font_02">16.00sp</dimen>
+  <dimen name="size_font_02_mobile">14.00sp</dimen>
+  <dimen name="size_font_03">20.00sp</dimen>
+  <dimen name="size_font_03_mobile">14.00sp</dimen>
+  <dimen name="size_font_04">20.00sp</dimen>
+  <dimen name="size_font_04_mobile">18.00sp</dimen>
+  <dimen name="size_font_05">30.00sp</dimen>
+  <dimen name="size_font_05_tablet">20.00sp</dimen>
+  <dimen name="size_font_05_mobile">18.00sp</dimen>
+  <dimen name="size_font_06">40.00sp</dimen>
+  <dimen name="size_font_06_mobile">22.00sp</dimen>
+  <dimen name="size_font_07">45.00sp</dimen>
+  <dimen name="size_font_07_tablet">30.00sp</dimen>
+  <dimen name="size_font_07_mobile">18.00sp</dimen>
+  <dimen name="size_font_08">45.00sp</dimen>
+  <dimen name="size_font_08_mobile">26.00sp</dimen>
+  <dimen name="size_font_09">70.00sp</dimen>
+  <dimen name="size_font_09_tablet">50.00sp</dimen>
+  <dimen name="size_font_09_mobile">26.00sp</dimen>
+  <dimen name="size_font_10_tablet">70.00sp</dimen>
+  <dimen name="size_font_10_mobile">40.00sp</dimen>
+  <dimen name="size_font_11_tablet_landscape">140.00sp</dimen>
+  <dimen name="size_font_11_tablet">90.00sp</dimen>
+  <dimen name="size_font_11_mobile">50.00sp</dimen>
   
 </resources>

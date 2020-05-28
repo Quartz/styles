@@ -3,85 +3,100 @@
     "line-height": {
       "maison-extra-bold": {
         "value": 1.05
+      },
+      "maison-medium": {
+        "value": 1.3
+      },
+      "pt-serif": {
+        "value": 1.5
       }
     }
   },
   "size": {
     "font": {
-      "small": {
+      "01": {
         "value": "0.8125"
       },
-      "extra-small": {
+      "01-mobile": {
         "value": "0.6875"
       },
-      "caption": {
-        "value": "0.625"
-      },
-      "caption-mobile": {
-        "value": "0.5"
-      },
-      "maison-extra-bold-1": {
-        "value": "{size.font.small.value}"
-      },
-      "maison-extra-bold-1-mobile": {
-        "value": "{size.font.extra-small.value}"
-      },
-      "maison-extra-bold-2": {
+      "02": {
         "value": "1"
       },
-      "maison-extra-bold-2-mobile": {
+      "02-mobile": {
         "value": "0.875"
       },
-      "maison-extra-bold-3": {
+      "03": {
         "value": "1.25"
       },
-      "maison-extra-bold-3-mobile": {
-        "value": "{size.font.maison-extra-bold-2-mobile.value}"
+      "03-mobile": {
+        "value": "{size.font.02-mobile.value}"
       },
-      "maison-extra-bold-4": {
-        "value": "{size.font.maison-extra-bold-3.value}"
+      "04": {
+        "value": "{size.font.03.value}"
       },
-      "maison-extra-bold-4-mobile": {
+      "04-mobile": {
         "value": "1.125"
       },
-      "maison-extra-bold-5": {
+      "05": {
         "value": "1.875"
       },
-      "maison-extra-bold-5-tablet": {
-        "value": "{size.font.maison-extra-bold-4.value}"
+      "05-tablet": {
+        "value": "{size.font.04.value}"
       },
-      "maison-extra-bold-5-mobile": {
-        "value": "{size.font.maison-extra-bold-4-mobile.value}"
+      "05-mobile": {
+        "value": "{size.font.04-mobile.value}"
       },
-      "maison-extra-bold-6": {
+      "06": {
         "value": "2.5"
       },
-      "maison-extra-bold-6-mobile": {
+      "06-mobile": {
         "value": "1.375"
       },
-      "maison-extra-bold-7": {
+      "07": {
         "value": "2.8125"
       },
-      "maison-extra-bold-7-tablet": {
+      "07-tablet": {
         "value": "1.875"
       },
-      "maison-extra-bold-7-mobile": {
-        "value": "{size.font.maison-extra-bold-5-mobile.value}"
+      "07-mobile": {
+        "value": "{size.font.05-mobile.value}"
       },
-      "maison-extra-bold-8": {
-        "value": "{size.font.maison-extra-bold-7.value}"
+      "08": {
+        "value": "{size.font.07.value}"
       },
-      "maison-extra-bold-8-mobile": {
+      "08-mobile": {
         "value": "1.625"
       },
-      "maison-extra-bold-9": {
+      "09": {
         "value": "4.375"
       },
-      "maison-extra-bold-9-tablet": {
+      "09-tablet": {
         "value": "3.125"
       },
-      "maison-extra-bold-9-mobile": {
-        "value": "{size.font.maison-extra-bold-8-mobile.value}"
+      "09-mobile": {
+        "value": "{size.font.08-mobile.value}"
+      },
+      "10": {
+        "value": "5.9375"
+      },
+      "10-tablet": {
+        "value": "4.375"
+      },
+      "10-mobile": {
+        "value": "2.5"
+      },
+      "11": {
+        "value": "11.25"
+      },
+      "11-tablet-landscape": {
+        "value": "8.75"
+      },
+      "11-tablet": {
+        "value": "5.625"
+      },
+      "11-mobile": {
+        "value": "3.125"
       }
     }
   }
