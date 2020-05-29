@@ -1,0 +1,21 @@
+{
+  "size": {
+    "gutter": {
+      "mobile": {
+        "value": 1.25
+      },
+      "tablet": {
+        "value": 2.5
+      },
+      "tablet-work": {
+        "value": 1.5625
+      },
+      "desktop": {
+        "value": 5.625
+      },
+      "desktop-work": {
+        "value": 2.5
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Fri, 29 May 2020 14:01:35 GMT
+// Generated on Fri, 29 May 2020 16:02:16 GMT
 //
 
 import UIKit
@@ -54,4 +54,9 @@ public enum QuartzStyles {
     public static let sizeFont11Mobile = CGFloat(50.00)
     public static let sizeFont11Tablet = CGFloat(90.00)
     public static let sizeFont11TabletLandscape = CGFloat(140.00)
+    public static let sizeGutterDesktop = CGFloat(90.00)
+    public static let sizeGutterDesktopWork = CGFloat(40.00)
+    public static let sizeGutterMobile = CGFloat(20.00)
+    public static let sizeGutterTablet = CGFloat(40.00)
+    public static let sizeGutterTabletWork = CGFloat(25.00)
 }
