@@ -5,7 +5,8 @@
   "devDependencies": {
     "style-dictionary": "^2.10.0"
   },
-  "main": "src/index.js",
+  "main": "Platforms/Web/_variables.scss",
+  "style": "Platforms/Web/_variables.scss",
   "scripts": {
     "build": "node build.js"
   }
