@@ -1,12 +1,15 @@
 {
-  "name": "styles",
+  "name": "quartz-styles",
   "description": "Quartz style dictionary",
   "version": "0.0.1",
   "devDependencies": {
     "style-dictionary": "^2.10.0"
   },
-  "main": "Platforms/Web/_variables.scss",
-  "style": "Platforms/Web/_variables.scss",
+  "main": "Platforms/Web/quartz-styles.scss",
+  "sass": "Platforms/Web/quartz-styles.scss",
+  "files": [
+    "Platforms/Web/**/*.scss"
+  ],
   "scripts": {
     "build": "node build.js"
   }
