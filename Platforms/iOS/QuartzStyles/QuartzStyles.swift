@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Mon, 15 Jun 2020 21:02:13 GMT
+// Generated on Mon, 15 Jun 2020 21:16:40 GMT
 //
 
 import UIKit
@@ -13,18 +13,19 @@ public enum QuartzStyles {
     public static let colorAccentBlueDark = UIColor(red: 0.463, green: 0.796, blue: 1.000, alpha:1)
     public static let colorBlack = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha:1)
     public static let colorDarkBlue = UIColor(red: 0.090, green: 0.102, blue: 0.137, alpha:1)
+    public static let colorDarkGray = UIColor(red: 0.200, green: 0.200, blue: 0.200, alpha:1)
+    public static let colorDarkTeal = UIColor(red: 0.000, green: 0.416, blue: 0.522, alpha:1)
     public static let colorGold = UIColor(red: 0.945, green: 0.639, blue: 0.247, alpha:1)
     public static let colorGray = UIColor(red: 0.631, green: 0.631, blue: 0.631, alpha:1)
-    public static let colorGrayDark = UIColor(red: 0.200, green: 0.200, blue: 0.200, alpha:1)
-    public static let colorGrayLight = UIColor(red: 0.886, green: 0.886, blue: 0.886, alpha:1)
     public static let colorGrayTableRow = UIColor(red: 0.945, green: 0.945, blue: 0.945, alpha:1)
     public static let colorGreen = UIColor(red: 0.000, green: 0.675, blue: 0.616, alpha:1)
+    public static let colorLightBlue = UIColor(red: 0.737, green: 0.871, blue: 0.953, alpha:1)
+    public static let colorLightGray = UIColor(red: 0.886, green: 0.886, blue: 0.886, alpha:1)
+    public static let colorLightTeal = UIColor(red: 0.761, green: 0.898, blue: 0.933, alpha:1)
     public static let colorOffWhite = UIColor(red: 0.976, green: 0.976, blue: 0.976, alpha:1)
     public static let colorRed = UIColor(red: 0.761, green: 0.322, blue: 0.314, alpha:1)
     public static let colorSilver = UIColor(red: 0.745, green: 0.745, blue: 0.745, alpha:1)
     public static let colorTeal = UIColor(red: 0.000, green: 0.514, blue: 0.643, alpha:1)
-    public static let colorTealDark = UIColor(red: 0.000, green: 0.416, blue: 0.522, alpha:1)
-    public static let colorTealLight = UIColor(red: 0.761, green: 0.898, blue: 0.933, alpha:1)
     public static let colorWhite = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha:1)
     public static let fontLineHeightMaisonExtraBold = CGFloat(1.05)
     public static let fontLineHeightMaisonMedium = CGFloat(1.30)
