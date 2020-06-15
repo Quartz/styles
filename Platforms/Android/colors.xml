@@ -2,25 +2,26 @@
 
 <!--
   Do not edit directly
-  Generated on Mon, 15 Jun 2020 21:02:13 GMT
+  Generated on Mon, 15 Jun 2020 21:16:40 GMT
 -->
 <resources>
   <color name="color_accent_blue">#ff168dd9</color>
   <color name="color_accent_blue_dark">#ff76cbff</color>
   <color name="color_dark_blue">#ff171a23</color>
+  <color name="color_light_blue">#ffbcdef3</color>
   <color name="color_black">#ff000000</color>
   <color name="color_gold">#fff1a33f</color>
   <color name="color_white">#ffffffff</color>
   <color name="color_off_white">#fff9f9f9</color>
   <color name="color_silver">#ffbebebe</color>
   <color name="color_gray">#ffa1a1a1</color>
-  <color name="color_gray_light">#ffe2e2e2</color>
-  <color name="color_gray_dark">#ff333333</color>
+  <color name="color_light_gray">#ffe2e2e2</color>
+  <color name="color_dark_gray">#ff333333</color>
   <color name="color_gray_table_row">#fff1f1f1</color>
   <color name="color_green">#ff00ac9d</color>
   <color name="color_red">#ffc25250</color>
   <color name="color_teal">#ff0083a4</color>
-  <color name="color_teal_light">#ffc2e5ee</color>
-  <color name="color_teal_dark">#ff006a85</color>
+  <color name="color_light_teal">#ffc2e5ee</color>
+  <color name="color_dark_teal">#ff006a85</color>
   
 </resources>
