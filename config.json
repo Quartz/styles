@@ -7,7 +7,7 @@
       "buildPath": "scss/",
       "files": [
         {
-          "destination": "quartz-styles.scss",
+          "destination": "tokens.scss",
           "format": "scss/variables"
         }
       ],

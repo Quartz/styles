@@ -1,0 +1,17 @@
+@import '../tokens.scss';
+
+@mixin for-tablet-portrait-up {
+	@media (min-width: $size-breakpoint-tablet-portrait) { @content; }
+}
+
+@mixin for-tablet-landscape-up {
+	@media (min-width: $size-breakpoint-tablet-landscape) { @content; }
+}
+
+@mixin for-desktop-up {
+	@media (min-width: $size-breakpoint-desktop) { @content; }
+}
+
+@mixin for-desktop-large-up {
+	@media (min-width: $size-breakpoint-desktop-large) { @content; }
+}

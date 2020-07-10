@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Fri, 10 Jul 2020 16:24:31 GMT
+// Generated on Fri, 10 Jul 2020 17:36:03 GMT
 //
 
 import UIKit
@@ -30,6 +30,10 @@ public enum QuartzStyles {
     public static let fontLineHeightMaisonExtraBold = CGFloat(1.05)
     public static let fontLineHeightMaisonMedium = CGFloat(1.30)
     public static let fontLineHeightPtSerif = CGFloat(1.50)
+    public static let sizeBreakpointDesktop = CGFloat(1200.00)
+    public static let sizeBreakpointDesktopLarge = CGFloat(1600.00)
+    public static let sizeBreakpointTabletLandscape = CGFloat(1024.00)
+    public static let sizeBreakpointTabletPortrait = CGFloat(768.00)
     public static let sizeFont01 = CGFloat(13.00)
     public static let sizeFont01Mobile = CGFloat(11.00)
     public static let sizeFont02 = CGFloat(16.00)
