@@ -1,10 +1,10 @@
 {
   "source": [
-    "Styles/**/*.json"
+    "dictionaries/**/*.json"
   ],
   "platforms": {
     "scss": {
-      "buildPath": "Platforms/Web/",
+      "buildPath": "scss/",
       "files": [
         {
           "destination": "quartz-styles.scss",
@@ -21,8 +21,7 @@
       ]
     },
     "android": {
-      "transformGroup": "android",
-      "buildPath": "Platforms/Android/",
+      "buildPath": "xml/",
       "files": [
         {
           "destination": "font_dimens.xml",
@@ -32,10 +31,11 @@
           "destination": "colors.xml",
           "format": "android/colors"
         }
-      ]
+      ],
+      "transformGroup": "android"
     },
     "ios-swift": {
-      "buildPath": "Platforms/iOS/QuartzStyles/",
+      "buildPath": "swift/QuartzStyles/",
       "files": [
         {
           "destination": "QuartzStyles.swift",

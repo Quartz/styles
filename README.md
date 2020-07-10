@@ -1,6 +1,6 @@
 # Quartz Style Dictionary
 
-Quartz design tokens are defined in the [`Styles`](/Styles) directory.
+Quartz design tokens are defined in the [`dictionaries`](/dictionaries) directory.
 
 Build:
 
@@ -9,6 +9,6 @@ npm i
 npm run build
 ```
 
-Client styles are generated in the [`Platforms`](/Platforms) directory.
+Client styles are output in the [`scss`](/scss), [`swift`](/swift), and [`xml`](/xml) directories.
 
-For easy client usage, this repo is an NPM module (see [`src/index.js`](/src/index.js)) and a Swift package (see [`Package.swift`](/Package.swift)).
+For easy client usage, this repo is an NPM module (see [`package.json`](package.json)) and a Swift package (see [`Package.swift`](/Package.swift)).
