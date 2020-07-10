@@ -4,7 +4,7 @@
 	}
 }
 
-@mixin link-hover {
+@mixin fade-on-hover {
 	@include has-hover {
 		transition: opacity $time-animation-duration;
 	}
@@ -16,7 +16,7 @@
 	}
 }
 
-@mixin reset-link-hover {
+@mixin reset-fade-on-hover {
 	&:hover:not(:disabled) {
 		@include has-hover {
 			opacity: 1;
