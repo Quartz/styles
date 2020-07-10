@@ -1,0 +1,19 @@
+{
+  "breakpoint": {
+    "tablet-portrait": {
+      "value": "768px"
+    },
+    "tablet-landscape": {
+      "value": "1024px"
+    },
+    "desktop": {
+      "value": "1200px"
+    },
+    "desktop": {
+      "value": "1200px"
+    },
+    "desktop-large": {
+      "value": "1600px"
+    }
+  }
+}
