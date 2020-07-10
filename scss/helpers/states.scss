@@ -1,0 +1,25 @@
+@mixin has-hover {
+	@media (hover: hover) {
+		@content;
+	}
+}
+
+@mixin link-hover {
+	@include has-hover {
+		transition: opacity $time-animation-duration;
+	}
+
+	&:hover {
+		@include has-hover {
+			opacity: 0.7;
+		}
+	}
+}
+
+@mixin reset-link-hover {
+	&:hover:not(:disabled) {
+		@include has-hover {
+			opacity: 1;
+		}
+	}
+}
