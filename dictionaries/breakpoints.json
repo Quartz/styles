@@ -1,16 +1,18 @@
 {
-  "breakpoint": {
-    "tablet-portrait": {
-      "value": "768px"
-    },
-    "tablet-landscape": {
-      "value": "1024px"
-    },
-    "desktop": {
-      "value": "1200px"
-    },
-    "desktop-large": {
-      "value": "1600px"
+  "size": {
+    "breakpoint": {
+      "tablet-portrait": {
+        "value": 48
+      },
+      "tablet-landscape": {
+        "value": 64
+      },
+      "desktop": {
+        "value": 75
+      },
+      "desktop-large": {
+        "value": 100
+      }
     }
   }
 }
