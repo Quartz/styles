@@ -8,7 +8,8 @@
   "main": "scss/tokens.scss",
   "sass": "scss/tokens.scss",
   "files": [
-    "scss/**/*.scss"
+    "scss/**/*.scss",
+    "dictionaries/colors.json"
   ],
   "scripts": {
     "build": "node build.js"
