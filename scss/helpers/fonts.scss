@@ -1,16 +1,3 @@
-$font-default-sans-fallback: 'Helvetica Neue', Helvetica, sans-serif;
-$font-default-serif-fallback: Georgia, serif;
-$font-maison-fallback: $font-default-sans-fallback;
-$font-graphik-fallback: $font-default-sans-fallback;
-$font-publico-headline-fallback: $font-default-serif-fallback;
-$font-pt-serif-fallback: $font-default-serif-fallback;
-
-$font-maison: 'MaisonNeue', $font-maison-fallback;
-$font-maison-extended: 'MaisonNeueExtended', $font-maison-fallback;
-$font-publico-headline: 'Publico Headline', $font-publico-headline-fallback;
-$font-pt-serif: 'PTSerif', $font-pt-serif-fallback;
-$font-graphik: 'Graphik', $font-graphik-fallback;
-
 /**
  * Quartz Font Mixins
  *
@@ -207,6 +194,7 @@ $font-graphik: 'Graphik', $font-graphik-fallback;
  * Avoid using the following mixins outside this file whenever
  * possible.
  */
+
 @mixin font-graphik {
 	font-family: $font-graphik-fallback;
 
@@ -246,6 +234,31 @@ $font-graphik: 'Graphik', $font-graphik-fallback;
 		font-family: $font-publico-headline;
 	}
 }
+
+/*
+	STOP HERE!
+
+ 	Do not reference the following variables or mixins outside this file
+*/
+
+/**
+ * Do not use these variables directly! Use a mixin to ensure
+ * non-system fonts are only applied once loaded in order to
+ * prevent FOIT.
+ */
+$font-default-sans-fallback: 'Helvetica Neue', Helvetica, sans-serif;
+$font-default-serif-fallback: Georgia, serif;
+
+$font-maison-fallback: $font-default-sans-fallback;
+$font-graphik-fallback: $font-default-sans-fallback;
+$font-publico-headline-fallback: $font-default-serif-fallback;
+$font-pt-serif-fallback: $font-default-serif-fallback;
+
+$font-maison: 'MaisonNeue', $font-maison-fallback;
+$font-maison-extended: 'MaisonNeueExtended', $font-maison-fallback;
+$font-publico-headline: 'Publico Headline', $font-publico-headline-fallback;
+$font-pt-serif: 'PTSerif', $font-pt-serif-fallback;
+$font-graphik: 'Graphik', $font-graphik-fallback;
 
 /**
  * Do not use this mixin directly! This mixin is only to be used the
