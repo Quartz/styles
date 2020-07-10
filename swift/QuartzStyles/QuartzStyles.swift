@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Fri, 10 Jul 2020 17:19:52 GMT
+// Generated on Fri, 10 Jul 2020 17:24:43 GMT
 //
 
 import UIKit
@@ -11,7 +11,6 @@ import UIKit
 public enum QuartzStyles {
     public static let breakpointDesktop = 1200px
     public static let breakpointDesktopLarge = 1600px
-    public static let breakpointMobile = 424px
     public static let breakpointTabletLandscape = 1024px
     public static let breakpointTabletPortrait = 768px
     public static let colorAccentBlue = UIColor(red: 0.086, green: 0.553, blue: 0.851, alpha:1)

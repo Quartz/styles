@@ -5,8 +5,8 @@
   "devDependencies": {
     "style-dictionary": "^2.10.0"
   },
-  "main": "scss/quartz-styles.scss",
-  "sass": "scss/quartz-styles.scss",
+  "main": "scss/tokens.scss",
+  "sass": "scss/tokens.scss",
   "files": [
     "scss/**/*.scss"
   ],
