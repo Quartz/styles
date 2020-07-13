@@ -5,7 +5,7 @@
 	component. CSS variables fall back (in IE11 and older) to an
 	approximation of the default theme (Quartz Light).
 */
-$color-accent: var(--color-accent, $color-blue);
+$color-accent: var(--color-accent, $color-accent-blue);
 $color-background-1: var(--color-background-1, $color-off-white);
 $color-background-1-transparent: var(--color-background-1-transparent, rgba(255, 255, 255, 0.000001));
 $color-background-2: var(--color-background-2, $color-white);
