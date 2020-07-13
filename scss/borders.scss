@@ -1,0 +1,5 @@
+@import './tokens.scss';
+@import './color-scheme.scss';
+
+$border-solid-decorative: solid $size-border-width $color-border-decorative;
+$border-solid-interactive: solid $size-border-width $color-border-interactive;
