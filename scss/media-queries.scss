@@ -1,4 +1,4 @@
-@import '../tokens';
+@import 'tokens';
 
 @mixin for-tablet-portrait-up {
 	@media (min-width: $size-breakpoint-tablet-portrait) { @content; }
