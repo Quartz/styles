@@ -15,3 +15,7 @@
 @mixin for-desktop-large-up {
 	@media (min-width: $size-breakpoint-desktop-large) { @content; }
 }
+
+@mixin has-hover {
+	@media (hover: hover) { @content; }
+}

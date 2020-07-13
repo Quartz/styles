@@ -1,10 +1,5 @@
+@import 'media-queries';
 @import 'tokens';
-
-@mixin has-hover {
-	@media (hover: hover) {
-		@content;
-	}
-}
 
 @mixin fade-on-hover {
 	@include has-hover {
