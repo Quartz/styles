@@ -1,5 +1,8 @@
 {
   "extends": [
     "@quartz/stylelint-config"
+  ],
+  "ignoreFiles": [
+  	"scss/tokens.scss"
   ]
 }
