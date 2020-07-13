@@ -1,0 +1,8 @@
+{
+  "time": {
+    "slowly": {
+      "value": 300,
+      "comment": "For animating state changes, e.g. hover transitions."
+    }
+  }
+}
