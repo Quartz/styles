@@ -1,12 +1,9 @@
-@mixin has-hover {
-	@media (hover: hover) {
-		@content;
-	}
-}
+@import 'media-queries';
+@import 'tokens';
 
 @mixin fade-on-hover {
 	@include has-hover {
-		transition: opacity $time-animation-duration;
+		transition: opacity $time-slowly;
 	}
 
 	&:hover {
