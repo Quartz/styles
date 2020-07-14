@@ -1,0 +1,23 @@
+@import '~normalize.css';
+@import 'color-scheme';
+@import 'states';
+
+body {
+	background: $color-background-1;
+	color: $color-typography;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	::selection {
+		background-color: $color-accent;
+		color: $color-background-1;
+	}
+}
+
+a {
+	@include fade-on-hover;
+
+	color: $color-accent;
+	text-decoration: none;
+}
