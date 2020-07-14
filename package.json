@@ -3,7 +3,9 @@
   "description": "Quartz style dictionary",
   "version": "0.1.0",
   "devDependencies": {
-    "style-dictionary": "^2.10.0"
+    "@quartz/stylelint-config": "^1.0.0",
+    "style-dictionary": "^2.10.0",
+    "stylelint": "^13.6.1"
   },
   "main": "scss/tokens.scss",
   "sass": "scss/tokens.scss",
@@ -12,7 +14,8 @@
     "dictionaries/colors.json"
   ],
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "test": "stylelint 'scss/**/*.scss'"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
