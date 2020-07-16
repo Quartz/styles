@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Tue, 14 Jul 2020 16:22:39 GMT
+// Generated on Thu, 16 Jul 2020 13:15:33 GMT
 //
 
 import UIKit
@@ -69,5 +69,5 @@ public enum QuartzStyles {
     public static let sizeGutterMobile = CGFloat(20.00)
     public static let sizeGutterTablet = CGFloat(40.00)
     public static let sizeGutterTabletWork = CGFloat(25.00)
-    public static let timeSlowly = 300
+    public static let timeSlowly = TimeInterval(0.3)
 }
