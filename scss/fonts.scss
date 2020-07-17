@@ -111,7 +111,7 @@
 
 @mixin font-maison-800-4 {
 	@include font-maison;
-	@include font-size-helper(18px, 20px, null);
+	@include font-size-helper(16px, 20px, null);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
