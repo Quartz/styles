@@ -23,7 +23,7 @@
 
 @mixin font-maison-500-1 {
 	@include font-maison;
-	@include font-size-helper($size-font-01-mobile, $size-font-01, null);
+	@include font-size-helper(11px, 13px, null);
 
 	font-weight: 500;
 	line-height: $font-line-height-maison-medium;
@@ -31,7 +31,7 @@
 
 @mixin font-maison-500-2 {
 	@include font-maison;
-	@include font-size-helper($size-font-02-mobile, $size-font-02, null);
+	@include font-size-helper(14px, 16px, null);
 
 	font-weight: 500;
 	line-height: $font-line-height-maison-medium;
@@ -39,7 +39,7 @@
 
 @mixin font-maison-500-3 {
 	@include font-maison;
-	@include font-size-helper($size-font-03-mobile, $size-font-03, null);
+	@include font-size-helper(14px, 20px, null);
 
 	font-weight: 500;
 	line-height: $font-line-height-maison-medium;
@@ -55,7 +55,7 @@
 
 @mixin font-maison-500-5 {
 	@include font-maison;
-	@include font-size-helper($size-font-05-mobile, $size-font-05-tablet, $size-font-05);
+	@include font-size-helper(14px, 20px, 30px);
 
 	font-weight: 500;
 	line-height: $font-line-height-maison-medium;
@@ -71,7 +71,7 @@
 
 @mixin font-maison-extended-700-1 {
 	@include font-maison-extended;
-	@include font-size-helper($size-font-01-mobile, $size-font-01, null);
+	@include font-size-helper(11px, 13px, null);
 
 	font-weight: 700;
 	line-height: $font-line-height-maison-extra-bold;
@@ -79,7 +79,7 @@
 
 @mixin font-maison-extended-700-2 {
 	@include font-maison-extended;
-	@include font-size-helper($size-font-02-mobile, $size-font-02, null);
+	@include font-size-helper(14px, 16px, null);
 
 	font-weight: 700;
 	line-height: $font-line-height-maison-extra-bold;
@@ -87,7 +87,7 @@
 
 @mixin font-maison-800-1 {
 	@include font-maison;
-	@include font-size-helper($size-font-01-mobile, $size-font-01, null);
+	@include font-size-helper(11px, 13px, null);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
@@ -95,7 +95,7 @@
 
 @mixin font-maison-800-2 {
 	@include font-maison;
-	@include font-size-helper($size-font-02-mobile, $size-font-02, null);
+	@include font-size-helper(14px, 16px, null);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
@@ -103,7 +103,7 @@
 
 @mixin font-maison-800-3 {
 	@include font-maison;
-	@include font-size-helper($size-font-03-mobile, $size-font-03, null);
+	@include font-size-helper(14px, 20px, null);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
@@ -111,7 +111,7 @@
 
 @mixin font-maison-800-4 {
 	@include font-maison;
-	@include font-size-helper($size-font-04-mobile, $size-font-04, null);
+	@include font-size-helper(18px, 20px, null);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
@@ -127,7 +127,7 @@
 
 @mixin font-maison-800-6 {
 	@include font-maison;
-	@include font-size-helper($size-font-06-mobile, $size-font-06, null);
+	@include font-size-helper(24px, 40px, null);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
@@ -143,7 +143,7 @@
 
 @mixin font-maison-800-9 {
 	@include font-maison;
-	@include font-size-helper($size-font-09-mobile, $size-font-09-tablet, $size-font-09);
+	@include font-size-helper(26px, 50px, 70px);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
