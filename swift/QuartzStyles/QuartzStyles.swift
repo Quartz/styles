@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Thu, 23 Jul 2020 15:21:43 GMT
+// Generated on Thu, 23 Jul 2020 18:02:55 GMT
 //
 
 import UIKit
@@ -36,34 +36,6 @@ public enum QuartzStyles {
     public static let sizeBreakpointDesktopLarge = CGFloat(1600.00)
     public static let sizeBreakpointTabletLandscape = CGFloat(1024.00)
     public static let sizeBreakpointTabletPortrait = CGFloat(768.00)
-    public static let sizeFont01 = CGFloat(13.00)
-    public static let sizeFont01Mobile = CGFloat(11.00)
-    public static let sizeFont02 = CGFloat(16.00)
-    public static let sizeFont02Mobile = CGFloat(14.00)
-    public static let sizeFont03 = CGFloat(20.00)
-    public static let sizeFont03Mobile = CGFloat(14.00)
-    public static let sizeFont04 = CGFloat(20.00)
-    public static let sizeFont04Mobile = CGFloat(18.00)
-    public static let sizeFont05 = CGFloat(30.00)
-    public static let sizeFont05Mobile = CGFloat(18.00)
-    public static let sizeFont05Tablet = CGFloat(20.00)
-    public static let sizeFont06 = CGFloat(40.00)
-    public static let sizeFont06Mobile = CGFloat(22.00)
-    public static let sizeFont07 = CGFloat(45.00)
-    public static let sizeFont07Mobile = CGFloat(18.00)
-    public static let sizeFont07Tablet = CGFloat(30.00)
-    public static let sizeFont08 = CGFloat(45.00)
-    public static let sizeFont08Mobile = CGFloat(26.00)
-    public static let sizeFont09 = CGFloat(70.00)
-    public static let sizeFont09Mobile = CGFloat(26.00)
-    public static let sizeFont09Tablet = CGFloat(50.00)
-    public static let sizeFont10 = CGFloat(95.00)
-    public static let sizeFont10Mobile = CGFloat(40.00)
-    public static let sizeFont10Tablet = CGFloat(70.00)
-    public static let sizeFont11 = CGFloat(180.00)
-    public static let sizeFont11Mobile = CGFloat(50.00)
-    public static let sizeFont11Tablet = CGFloat(90.00)
-    public static let sizeFont11TabletLandscape = CGFloat(140.00)
     public static let sizeGutterDesktop = CGFloat(90.00)
     public static let sizeGutterDesktopWork = CGFloat(40.00)
     public static let sizeGutterMobile = CGFloat(20.00)

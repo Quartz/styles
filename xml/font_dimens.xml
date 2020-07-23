@@ -2,36 +2,8 @@
 
 <!--
   Do not edit directly
-  Generated on Thu, 23 Jul 2020 15:21:43 GMT
+  Generated on Thu, 23 Jul 2020 18:02:55 GMT
 -->
 <resources>
-  <dimen name="size_font_10">95.00sp</dimen>
-  <dimen name="size_font_11">180.00sp</dimen>
-  <dimen name="size_font_01">13.00sp</dimen>
-  <dimen name="size_font_01_mobile">11.00sp</dimen>
-  <dimen name="size_font_02">16.00sp</dimen>
-  <dimen name="size_font_02_mobile">14.00sp</dimen>
-  <dimen name="size_font_03">20.00sp</dimen>
-  <dimen name="size_font_03_mobile">14.00sp</dimen>
-  <dimen name="size_font_04">20.00sp</dimen>
-  <dimen name="size_font_04_mobile">18.00sp</dimen>
-  <dimen name="size_font_05">30.00sp</dimen>
-  <dimen name="size_font_05_tablet">20.00sp</dimen>
-  <dimen name="size_font_05_mobile">18.00sp</dimen>
-  <dimen name="size_font_06">40.00sp</dimen>
-  <dimen name="size_font_06_mobile">22.00sp</dimen>
-  <dimen name="size_font_07">45.00sp</dimen>
-  <dimen name="size_font_07_tablet">30.00sp</dimen>
-  <dimen name="size_font_07_mobile">18.00sp</dimen>
-  <dimen name="size_font_08">45.00sp</dimen>
-  <dimen name="size_font_08_mobile">26.00sp</dimen>
-  <dimen name="size_font_09">70.00sp</dimen>
-  <dimen name="size_font_09_tablet">50.00sp</dimen>
-  <dimen name="size_font_09_mobile">26.00sp</dimen>
-  <dimen name="size_font_10_tablet">70.00sp</dimen>
-  <dimen name="size_font_10_mobile">40.00sp</dimen>
-  <dimen name="size_font_11_tablet_landscape">140.00sp</dimen>
-  <dimen name="size_font_11_tablet">90.00sp</dimen>
-  <dimen name="size_font_11_mobile">50.00sp</dimen>
   
 </resources>
