@@ -135,7 +135,15 @@
 
 @mixin font-maison-800-7 {
 	@include font-maison;
-	@include font-size-helper(16px, 30px, 45px);
+	@include font-size-helper(16px, 28px, 48px);
+
+	font-weight: 800;
+	line-height: $font-line-height-maison-extra-bold;
+}
+
+@mixin font-maison-800-8 {
+	@include font-maison;
+	@include font-size-helper(18px, 24px);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
@@ -143,7 +151,7 @@
 
 @mixin font-maison-800-9 {
 	@include font-maison;
-	@include font-size-helper(26px, 50px, 70px);
+	@include font-size-helper(24px, 48px, 64px);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
@@ -151,7 +159,7 @@
 
 @mixin font-maison-800-10 {
 	@include font-maison;
-	@include font-size-helper(32px, 70px, 84px);
+	@include font-size-helper(28px, 64px, 80px);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
@@ -159,7 +167,7 @@
 
 @mixin font-publico-800-1 {
 	@include font-publico-headline;
-	@include font-size-helper(26px, 50px, 70px);
+	@include font-size-helper(24px, 48px, 64px);
 
 	font-weight: 800;
 	line-height: $font-line-height-maison-extra-bold;
