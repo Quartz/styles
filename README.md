@@ -9,6 +9,6 @@ npm i
 npm run build
 ```
 
-Client styles are output in the [`scss`](/scss), [`swift`](/swift), and [`xml`](/xml) directories.
+Client styles are output in the [`scss`](/scss) and [`swift`](/swift) directories.
 
 For easy client usage, this repo is an NPM module (see [`package.json`](package.json)) and a Swift package (see [`Package.swift`](/Package.swift)).
