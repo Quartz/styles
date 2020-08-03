@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Fri, 31 Jul 2020 14:11:06 GMT
+// Generated on Mon, 03 Aug 2020 16:33:57 GMT
 //
 
 import UIKit
