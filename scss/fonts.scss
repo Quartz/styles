@@ -75,6 +75,10 @@
 
 	font-weight: 700;
 	line-height: $font-line-height-maison-extra-bold;
+	text-transform: uppercase;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
 }
 
 @mixin font-maison-extended-700-2 {
