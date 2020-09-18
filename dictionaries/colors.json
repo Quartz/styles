@@ -53,6 +53,9 @@
     },
     "dark-teal": {
       "value": "#006a85"
+    },
+    "pink": {
+      "value": "#ff9bde"
     }
   }
 }

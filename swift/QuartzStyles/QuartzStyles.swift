@@ -3,7 +3,7 @@
 // QuartzStyles.swift
 //
 // Do not edit directly
-// Generated on Mon, 14 Sep 2020 19:28:56 GMT
+// Generated on Fri, 18 Sep 2020 18:15:13 GMT
 //
 
 import UIKit
@@ -23,6 +23,7 @@ public enum QuartzStyles {
     public static let colorLightGray = UIColor(red: 0.886, green: 0.886, blue: 0.886, alpha:1)
     public static let colorLightTeal = UIColor(red: 0.761, green: 0.898, blue: 0.933, alpha:1)
     public static let colorOffWhite = UIColor(red: 0.976, green: 0.976, blue: 0.976, alpha:1)
+    public static let colorPink = UIColor(red: 1.000, green: 0.608, blue: 0.871, alpha:1)
     public static let colorRed = UIColor(red: 0.761, green: 0.322, blue: 0.314, alpha:1)
     public static let colorSilver = UIColor(red: 0.745, green: 0.745, blue: 0.745, alpha:1)
     public static let colorTeal = UIColor(red: 0.000, green: 0.514, blue: 0.643, alpha:1)
