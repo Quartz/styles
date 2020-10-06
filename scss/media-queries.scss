@@ -1,19 +1,19 @@
-@import 'tokens';
+@use 'tokens';
 
 @mixin for-tablet-portrait-up {
-	@media (min-width: $size-breakpoint-tablet-portrait) { @content; }
+	@media (min-width: tokens.$size-breakpoint-tablet-portrait) { @content; }
 }
 
 @mixin for-tablet-landscape-up {
-	@media (min-width: $size-breakpoint-tablet-landscape) { @content; }
+	@media (min-width: tokens.$size-breakpoint-tablet-landscape) { @content; }
 }
 
 @mixin for-desktop-up {
-	@media (min-width: $size-breakpoint-desktop) { @content; }
+	@media (min-width: tokens.$size-breakpoint-desktop) { @content; }
 }
 
 @mixin for-desktop-large-up {
-	@media (min-width: $size-breakpoint-desktop-large) { @content; }
+	@media (min-width: tokens.$size-breakpoint-desktop-large) { @content; }
 }
 
 @mixin has-hover {
