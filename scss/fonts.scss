@@ -265,13 +265,13 @@ $graphik: 'Graphik', $graphik-fallback;
 	font-size: $mobile;
 
 	@if $tablet-portrait != null {
-		@include media-queries.for-tablet-portrait-up {
+		@include media-queries.tablet-portrait-up {
 			font-size: $tablet-portrait;
 		}
 	}
 
 	@if $tablet-landscape != null {
-		@include media-queries.for-tablet-landscape-up {
+		@include media-queries.tablet-landscape-up {
 			font-size: $tablet-landscape;
 		}
 	}

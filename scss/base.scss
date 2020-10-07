@@ -1,23 +1,23 @@
-@use 'color-scheme' as colors;
+@use 'color-scheme';
 @use 'states';
-@import '~normalize.css';
+//@import '~normalize.css';
 
 body {
-	background: colors.$background-1;
-	color: colors.$typography;
+	background: color-scheme.$background-1;
+	color: color-scheme.$typography;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
 	::selection {
-		background-color: colors.$accent;
-		color: colors.$background-1;
+		background-color: color-scheme.$accent;
+		color: color-scheme.$background-1;
 	}
 }
 
 a {
 	@include states.fade-on-hover;
 
-	color: colors.$accent;
+	color: color-scheme.$accent;
 	text-decoration: none;
 }

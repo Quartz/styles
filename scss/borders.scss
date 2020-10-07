@@ -1,5 +1,5 @@
 @use 'tokens';
-@use 'color-scheme' as colors;
+@use 'color-scheme';
 
-$solid-decorative: solid tokens.$size-border-width colors.$border-decorative;
-$solid-interactive: solid tokens.$size-border-width colors.$border-interactive;
+$solid-decorative: solid tokens.$size-border-width color-scheme.$border-decorative;
+$solid-interactive: solid tokens.$size-border-width color-scheme.$border-interactive;
