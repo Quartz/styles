@@ -3,21 +3,21 @@
 @import '~normalize.css';
 
 body {
-	background: colors.$color-background-1;
-	color: colors.$color-typography;
+	background: colors.$background-1;
+	color: colors.$typography;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
 	::selection {
-		background-color: colors.$color-accent;
-		color: colors.$color-background-1;
+		background-color: colors.$accent;
+		color: colors.$background-1;
 	}
 }
 
 a {
 	@include states.fade-on-hover;
 
-	color: colors.$color-accent;
+	color: colors.$accent;
 	text-decoration: none;
 }
