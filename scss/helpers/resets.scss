@@ -7,13 +7,13 @@
 	line-height: inherit;
 }
 
-@mixin reset-appearance {
+@mixin appearance {
 	appearance: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 }
 
-@mixin reset-focus-styles {
+@mixin focus-styles {
 	/* Only remove focus styles when the user is using a pointing device */
 	:global(.intent-mouse) & {
 		&:focus,
@@ -23,10 +23,10 @@
 	}
 }
 
-@mixin reset-button {
+@mixin button {
 	@include reset;
-	@include reset-appearance;
-	@include reset-focus-styles;
+	@include appearance;
+	@include focus-styles;
 
 	background-color: transparent;
 	background-image: none;
@@ -34,31 +34,31 @@
 	color: inherit;
 }
 
-@mixin reset-checkbox {
+@mixin checkbox {
 	@include reset;
-	@include reset-appearance;
-	@include reset-focus-styles;
+	@include appearance;
+	@include focus-styles;
 
 	background-color: transparent;
 }
 
-@mixin reset-select {
+@mixin select {
 	@include reset;
-	@include reset-appearance;
-	@include reset-focus-styles;
+	@include appearance;
+	@include focus-styles;
 
 	background-color: transparent;
 }
 
-@mixin reset-ul {
+@mixin ul {
 	@include reset;
 
 	list-style: none;
 }
 
-@mixin reset-text-input {
+@mixin text-input {
 	@include reset;
-	@include reset-appearance;
+	@include appearance;
 
 	line-height: 2;
 	font-family: inherit;
@@ -71,7 +71,7 @@
 
 	/* Added specificity to override iOS default styles */
 	&[type=search] {
-		@include reset-appearance;
+		@include appearance;
 
 		border-radius: 0;
 		box-shadow: none;
@@ -82,9 +82,9 @@
 	}
 }
 
-@mixin reset-summary {
+@mixin summary {
 	@include reset;
-	@include reset-focus-styles;
+	@include focus-styles;
 
 	/* Firefox applies default display of "list-item" */
 	display: block;
@@ -95,7 +95,7 @@
 	}
 }
 
-@mixin reset-fieldset {
+@mixin fieldset {
 	@include reset;
 
 	border: 0;
