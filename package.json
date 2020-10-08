@@ -3,7 +3,7 @@
   "description": "Quartz style dictionary",
   "version": "0.1.0",
   "devDependencies": {
-    "@quartz/stylelint-config": "^1.0.0",
+    "@quartz/stylelint-config": "^1.2.0",
     "style-dictionary": "^2.10.0",
     "stylelint": "^13.6.1"
   },
