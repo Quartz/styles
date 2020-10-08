@@ -1,4 +1,5 @@
-@import 'media-queries';
+@use 'media-queries';
+@use 'tokens';
 
 /**
  * Quartz Font Mixins
@@ -21,164 +22,164 @@
  * https://docs.google.com/spreadsheets/d/1jk-QoK22_lAoJbbyZyxVM1Ym7sakCNZGHVBtMOY6hxE/edit#gid=0
  */
 
-@mixin font-maison-500-1 {
-	@include font-maison;
+@mixin maison-500-1 {
+	@include maison;
 	@include font-size-helper(11px, 13px, null);
 
 	font-weight: 500;
-	line-height: $font-line-height-maison-medium;
+	line-height: tokens.$font-line-height-maison-medium;
 }
 
-@mixin font-maison-500-2 {
-	@include font-maison;
+@mixin maison-500-2 {
+	@include maison;
 	@include font-size-helper(14px, 16px, null);
 
 	font-weight: 500;
-	line-height: $font-line-height-maison-medium;
+	line-height: tokens.$font-line-height-maison-medium;
 }
 
-@mixin font-maison-500-3 {
-	@include font-maison;
+@mixin maison-500-3 {
+	@include maison;
 	@include font-size-helper(14px, 20px, null);
 
 	font-weight: 500;
-	line-height: $font-line-height-maison-medium;
+	line-height: tokens.$font-line-height-maison-medium;
 }
 
-@mixin font-maison-500-4 {
-	@include font-maison;
+@mixin maison-500-4 {
+	@include maison;
 	@include font-size-helper(16px, 20px, null);
 
 	font-weight: 500;
-	line-height: $font-line-height-maison-medium;
+	line-height: tokens.$font-line-height-maison-medium;
 }
 
-@mixin font-maison-500-5 {
-	@include font-maison;
+@mixin maison-500-5 {
+	@include maison;
 	@include font-size-helper(14px, 20px, 30px);
 
 	font-weight: 500;
-	line-height: $font-line-height-maison-medium;
+	line-height: tokens.$font-line-height-maison-medium;
 }
 
-@mixin font-pt-serif-400-1 {
-	@include font-pt-serif;
+@mixin pt-serif-400-1 {
+	@include pt-serif;
 	@include font-size-helper(16px, 20px, null);
 
 	font-weight: 400;
-	line-height: $font-line-height-pt-serif;
+	line-height: tokens.$font-line-height-pt-serif;
 }
 
-@mixin font-maison-extended-700-1 {
-	@include font-maison-extended;
+@mixin maison-extended-700-1 {
+	@include maison-extended;
 	@include font-size-helper(11px, 13px, null);
 
 	font-weight: 700;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 	text-transform: uppercase;
 	-webkit-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
 }
 
-@mixin font-maison-extended-700-2 {
-	@include font-maison-extended;
+@mixin maison-extended-700-2 {
+	@include maison-extended;
 	@include font-size-helper(14px, 16px, null);
 
 	font-weight: 700;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 	text-transform: uppercase;
 	-webkit-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
 }
 
-@mixin font-maison-800-1 {
-	@include font-maison;
+@mixin maison-800-1 {
+	@include maison;
 	@include font-size-helper(11px, 13px, null);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
-@mixin font-maison-800-2 {
-	@include font-maison;
+@mixin maison-800-2 {
+	@include maison;
 	@include font-size-helper(14px, 16px, null);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
-@mixin font-maison-800-3 {
-	@include font-maison;
+@mixin maison-800-3 {
+	@include maison;
 	@include font-size-helper(14px, 20px, null);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
-@mixin font-maison-800-4 {
-	@include font-maison;
+@mixin maison-800-4 {
+	@include maison;
 	@include font-size-helper(16px, 20px, null);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
-@mixin font-maison-800-5 {
-	@include font-maison;
+@mixin maison-800-5 {
+	@include maison;
 	@include font-size-helper(20px, 32px, null);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
-@mixin font-maison-800-6 {
-	@include font-maison;
+@mixin maison-800-6 {
+	@include maison;
 	@include font-size-helper(24px, 40px, null);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
-@mixin font-maison-800-7 {
-	@include font-maison;
+@mixin maison-800-7 {
+	@include maison;
 	@include font-size-helper(16px, 28px, 48px);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
-@mixin font-maison-800-8 {
-	@include font-maison;
+@mixin maison-800-8 {
+	@include maison;
 	@include font-size-helper(18px, 24px);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
-@mixin font-maison-800-9 {
-	@include font-maison;
+@mixin maison-800-9 {
+	@include maison;
 	@include font-size-helper(24px, 48px, 64px);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
-@mixin font-maison-800-10 {
-	@include font-maison;
+@mixin maison-800-10 {
+	@include maison;
 	@include font-size-helper(28px, 64px, 80px);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
-@mixin font-publico-800-1 {
-	@include font-publico-headline;
+@mixin publico-800-1 {
+	@include publico-headline;
 	@include font-size-helper(24px, 48px, 64px);
 
 	font-weight: 800;
-	line-height: $font-line-height-maison-extra-bold;
+	line-height: tokens.$font-line-height-maison-extra-bold;
 }
 
 /**
@@ -188,43 +189,43 @@
  * possible.
  */
 
-@mixin font-graphik {
-	font-family: $font-graphik-fallback;
+@mixin graphik {
+	font-family: $graphik-fallback;
 
 	:global(.fonts-loaded) & {
-		font-family: $font-graphik;
+		font-family: $graphik;
 	}
 }
 
-@mixin font-maison {
-	font-family: $font-maison-fallback;
+@mixin maison {
+	font-family: $maison-fallback;
 
 	:global(.fonts-loaded) & {
-		font-family: $font-maison;
+		font-family: $maison;
 	}
 }
 
-@mixin font-maison-extended {
-	font-family: $font-maison-fallback;
+@mixin maison-extended {
+	font-family: $maison-fallback;
 
 	:global(.fonts-loaded) & {
-		font-family: $font-maison-extended;
+		font-family: $maison-extended;
 	}
 }
 
-@mixin font-pt-serif {
-	font-family: $font-pt-serif-fallback;
+@mixin pt-serif {
+	font-family: $pt-serif-fallback;
 
 	:global(.fonts-loaded) & {
-		font-family: $font-pt-serif;
+		font-family: $pt-serif;
 	}
 }
 
-@mixin font-publico-headline {
-	font-family: $font-publico-headline-fallback;
+@mixin publico-headline {
+	font-family: $publico-headline-fallback;
 
 	:global(.fonts-loaded) & {
-		font-family: $font-publico-headline;
+		font-family: $publico-headline;
 	}
 }
 
@@ -242,16 +243,16 @@
 $font-default-sans-fallback: 'Helvetica Neue', Helvetica, sans-serif;
 $font-default-serif-fallback: Georgia, serif;
 
-$font-maison-fallback: $font-default-sans-fallback;
-$font-graphik-fallback: $font-default-sans-fallback;
-$font-publico-headline-fallback: $font-default-serif-fallback;
-$font-pt-serif-fallback: $font-default-serif-fallback;
+$maison-fallback: $font-default-sans-fallback;
+$graphik-fallback: $font-default-sans-fallback;
+$publico-headline-fallback: $font-default-serif-fallback;
+$pt-serif-fallback: $font-default-serif-fallback;
 
-$font-maison: 'MaisonNeue', $font-maison-fallback;
-$font-maison-extended: 'MaisonNeueExtended', $font-maison-fallback;
-$font-publico-headline: 'Publico Headline', $font-publico-headline-fallback;
-$font-pt-serif: 'PTSerif', $font-pt-serif-fallback;
-$font-graphik: 'Graphik', $font-graphik-fallback;
+$maison: 'MaisonNeue', $maison-fallback;
+$maison-extended: 'MaisonNeueExtended', $maison-fallback;
+$publico-headline: 'Publico Headline', $publico-headline-fallback;
+$pt-serif: 'PTSerif', $pt-serif-fallback;
+$graphik: 'Graphik', $graphik-fallback;
 
 /**
  * Do not use this mixin directly! This mixin is only to be used the
@@ -264,13 +265,13 @@ $font-graphik: 'Graphik', $font-graphik-fallback;
 	font-size: $mobile;
 
 	@if $tablet-portrait != null {
-		@include for-tablet-portrait-up {
+		@include media-queries.tablet-portrait-up {
 			font-size: $tablet-portrait;
 		}
 	}
 
 	@if $tablet-landscape != null {
-		@include for-tablet-landscape-up {
+		@include media-queries.tablet-landscape-up {
 			font-size: $tablet-landscape;
 		}
 	}
