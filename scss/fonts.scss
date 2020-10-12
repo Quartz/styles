@@ -241,7 +241,7 @@
  * prevent FOIT.
  */
  $font-default-sans-fallback: -apple-system, 'Helvetica Neue', Helvetica, 'Hiragino Sans', sans-serif;
- $font-default-serif-fallback: -apple-system, Georgia, 'Hiragino Sans', serif;
+$font-default-serif-fallback: Georgia, 'Hiragino Sans', serif;
 
 $maison-fallback: $font-default-sans-fallback;
 $graphik-fallback: $font-default-sans-fallback;
