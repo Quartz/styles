@@ -240,8 +240,8 @@
  * non-system fonts are only applied once loaded in order to
  * prevent FOIT.
  */
-$font-default-sans-fallback: 'Helvetica Neue', Helvetica, sans-serif;
-$font-default-serif-fallback: Georgia, serif;
+$font-default-sans-fallback: -apple-system, 'Helvetica Neue', Helvetica, 'Hiragino Sans', sans-serif;
+$font-default-serif-fallback: Georgia, 'Hiragino Sans', serif;
 
 $maison-fallback: $font-default-sans-fallback;
 $graphik-fallback: $font-default-sans-fallback;
