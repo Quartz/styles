@@ -189,70 +189,37 @@
  * possible.
  */
 
-@mixin graphik {
-	font-family: $graphik-fallback;
-
-	:global(.fonts-loaded) & {
-		font-family: $graphik;
-	}
-}
-
 @mixin maison {
-	font-family: $maison-fallback;
-
-	:global(.fonts-loaded) & {
-		font-family: $maison;
-	}
+	font-family: $maison;
 }
 
 @mixin maison-extended {
-	font-family: $maison-fallback;
-
-	:global(.fonts-loaded) & {
-		font-family: $maison-extended;
-	}
+	font-family: $maison-extended;
 }
 
 @mixin pt-serif {
-	font-family: $pt-serif-fallback;
-
-	:global(.fonts-loaded) & {
-		font-family: $pt-serif;
-	}
+	font-family: $pt-serif;
 }
 
 @mixin publico-headline {
-	font-family: $publico-headline-fallback;
-
-	:global(.fonts-loaded) & {
-		font-family: $publico-headline;
-	}
+	font-family: $publico-headline;
 }
 
 /*
-	STOP HERE!
-
- 	Do not reference the following variables or mixins outside this file!
+ * STOP HERE!
+ *
+ * Do not reference the following variables or mixins outside this file!
+ *
+ * Use a mixin to ensure non-system fonts are loaded correctly.
 */
 
-/**
- * Do not use these variables directly! Use a mixin to ensure
- * non-system fonts are only applied once loaded in order to
- * prevent FOIT.
- */
 $font-default-sans-fallback: -apple-system, 'Helvetica Neue', Helvetica, 'Hiragino Sans', sans-serif;
 $font-default-serif-fallback: Georgia, 'Hiragino Sans', serif;
 
-$maison-fallback: $font-default-sans-fallback;
-$graphik-fallback: $font-default-sans-fallback;
-$publico-headline-fallback: $font-default-serif-fallback;
-$pt-serif-fallback: $font-default-serif-fallback;
-
-$maison: 'MaisonNeue', $maison-fallback;
-$maison-extended: 'MaisonNeueExtended', $maison-fallback;
-$publico-headline: 'Publico Headline', $publico-headline-fallback;
-$pt-serif: 'PTSerif', $pt-serif-fallback;
-$graphik: 'Graphik', $graphik-fallback;
+$maison: 'MaisonNeue', $font-default-sans-fallback;
+$maison-extended: 'MaisonNeueExtended', $font-default-sans-fallback;
+$publico-headline: 'Publico Headline', $font-default-serif-fallback;
+$pt-serif: 'PTSerif', $font-default-serif-fallback;
 
 /**
  * Do not use this mixin directly! This mixin is only to be used the
