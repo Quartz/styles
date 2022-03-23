@@ -17,3 +17,4 @@ $border-interactive: var(--color-border-interactive, rgba(0, 0, 0, 0.3));
 $highlight: var(--color-highlight, rgba(22, 141, 217, 0.2));
 $typography: var(--color-typography, tokens.$color-black);
 $typography-faint: var(--color-typography-faint, rgba(0, 0, 0, 0.7));
+$typography-inverted: var(--color-typography-inverted, tokens.$color-white);
