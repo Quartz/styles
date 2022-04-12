@@ -6,11 +6,14 @@
 	approximation of the default theme (Quartz Light).
 */
 $accent: var(--color-accent, tokens.$color-accent-blue);
+$accent-navigation: var(--color-accent-navigation, tokens.$color-accent-blue);
 $background-1: var(--color-background-1, tokens.$color-off-white);
 $background-1-transparent: var(--color-background-1-transparent, rgba(255, 255, 255, 0.000001));
 $background-2: var(--color-background-2, tokens.$color-white);
 $background-3: var(--color-background-3, rgba(0, 0, 0, 0.15));
 $background-4: var(--color-background-4, tokens.$color-white);
+$background-navigation: var(--color-background-navigation, tokens.$color-off-white);
+$background-navigation-faint: var(--color-background-navigation-faint, tokens.$color-white);
 $background-modal: var(--color-background-modal, rgba(0, 0, 0, 0.98));
 $border-decorative: var(--color-border-decorative, rgba(0, 0, 0, 0.15));
 $border-interactive: var(--color-border-interactive, rgba(0, 0, 0, 0.3));
@@ -18,3 +21,5 @@ $highlight: var(--color-highlight, rgba(22, 141, 217, 0.2));
 $typography: var(--color-typography, tokens.$color-black);
 $typography-faint: var(--color-typography-faint, rgba(0, 0, 0, 0.7));
 $typography-inverted: var(--color-typography-inverted, tokens.$color-white);
+$typography-navigation: var(--color-typography-navigation, tokens.$color-black);
+$typography-navigation-faint: var(--color-typography-navigation-faint, rgba(0, 0, 0, 0.7));
