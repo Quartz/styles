@@ -48,7 +48,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Switch to Xcode 11
-        run: ls /Applications; sudo xcode-select -s /Applications/Xcode_11.5.app
+        run: ls /Applications; sudo xcode-select -s /Applications/Xcode_11.7.app
 
       - run: swift package generate-xcodeproj
 
